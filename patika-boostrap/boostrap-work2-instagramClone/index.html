@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Instagram Clone</title>
+    <!-- BOOSTRAP CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"/>
+    <!-- FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- İCON -->
+    <link rel="icon" type="image/x-icon" href="img/icon-instagram.ico" />
+    <!-- CSS FİLES -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/utils.css" />
+  </head>
+  <body>
+
+    <!-- NAVBAR START  -->
+    <nav class="navbar-self navbar navbar-expand-lg fixed-top bg-white border-bottom">
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" id="logo-parent-A">
+          <img src="img/logo-ınstagram.png" class="logo-brand" alt="logo"/>
+        </a>
+
+        <button id="navbarToggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 40px;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-lg-evenly" id="navbarSupportedContent">
+          <form class="d-flex justify-content-center" role="search">
+            <input class="form-control search-bar" type="search" placeholder="Search" aria-label="Search"/>
+          </form>
+
+          <ul class="navbar-nav d-sm-flex flex-row justify-content-evenly d-lg-flex">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-house fa-lg mr-2 mt-1" style="color:var(--color-black)"></i>
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fab fa-facebook-messenger fa-lg mr-2 mt-1" style="color:var(--color-black)"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="far fa-compass fa-lg mr-2 mt-1" style="color:var(--color-black)"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="far fa-heart fa-lg mr-2 mt-1" style="color:var(--color-black)"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="https://www.instagram.com/hakanozkale" target="_blank" 
+              style="width: 36px; height: 40px; padding:7px;">
+                <img src="img/avatar.jpg" alt="avatar" class="pp-Border navbar-avatar">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+
+    
+    <main class="container-fluid col-12" id="fixedNavbarFix">
+      <div class="row offset-lg-2 justify-content-center justify-content-lg-start">
+        <!-- sectionCOL START  -->
+        <section class="col-12 col-sm-10 col-md-8 col-lg-6 mt-4 ">
+        </section>
+        <!-- sectionCOL END -->
+
+
+        <!-- Menu aside START  -->
+        <aside class="col-4 d-none d-lg-block" style="width: 22rem;">
+
+          <div class="card mt-5">
+            <div class="card-body">
+              <div class="card d-flex m-2 flex-row " style="border: none;">
+                <img src="./img/avatar.jpg" class="storyBorder" alt="avatar">
+                <div class="card-body p-0 d-flex align-items-center">
+                  <a class="text-decoration-none m-0 text-dark fw-bolder ms-3" href="https://instagram.com/hakanozkale" target="_blank">hakanozkale</a>
+                </div>
+              </div>
+              <div class="d-flex flex-row justify-content-between align-items-center mb-2">
+                <span class="text-secondary" style="font-size: 15px;">Senin için önerilenler</span>
+                <span class="fw-bold" style="font-size: 12px;">Tümünü Gör</span>
+              </div>
+
+              <div class="d-flex mb-3">
+                <img src="./img/avatar.jpg" class="menu-img img-fluid" alt="avatar">
+                <div class="card-body p-0 d-flex align-items-center justify-content-between">
+                  <a class="text-decoration-none m-0 text-dark fw-bolder ms-3" href="https://instagram.com/hakanozkale" target="_blank">hakanozkale</a>
+                  <button class="border-0 bg-transparent fw-bold text-primary" style="font-size: 14px;">
+                    Takip et
+                  </button>
+                </div>
+              </div>
+              <div class="d-flex mb-3">
+                <img src="./img/avatar.jpg" class="menu-img img-fluid" alt="avatar">
+                <div class="card-body p-0 d-flex align-items-center justify-content-between">
+                  <a class="text-decoration-none m-0 text-dark fw-bolder ms-3" href="https://instagram.com/hakanozkale" target="_blank">hakanozkale</a>
+                  <button class="border-0 bg-transparent fw-bold text-primary" style="font-size: 14px;">
+                    Takip et
+                  </button>
+                </div>
+              </div>
+              <div class="d-flex mb-3">
+                <img src="./img/avatar.jpg" class="menu-img img-fluid" alt="avatar">
+                <div class="card-body p-0 d-flex align-items-center justify-content-between">
+                  <a class="text-decoration-none m-0 text-dark fw-bolder ms-3" href="https://instagram.com/hakanozkale" target="_blank">hakanozkale</a>
+                  <button class="border-0 bg-transparent fw-bold text-primary" style="font-size: 14px;">
+                    Takip et
+                  </button>
+                </div>
+              </div>
+              <div class="d-flex mb-3">
+                <img src="./img/avatar.jpg" class="menu-img img-fluid" alt="avatar">
+                <div class="card-body p-0 d-flex align-items-center justify-content-between">
+                  <a class="text-decoration-none m-0 text-dark fw-bolder ms-3" href="https://instagram.com/hakanozkale" target="_blank">hakanozkale</a>
+                  <button class="border-0 bg-transparent fw-bold text-primary" style="font-size: 14px;">
+                    Takip et
+                  </button>
+                </div>
+              </div>
+              <div class="d-flex mb-3">
+                <img src="./img/avatar.jpg" class="menu-img img-fluid" alt="avatar">
+                <div class="card-body p-0 d-flex align-items-center justify-content-between">
+                  <a class="text-decoration-none m-0 text-dark fw-bolder ms-3" href="https://instagram.com/hakanozkale" target="_blank">hakanozkale</a>
+                  <button class="border-0 bg-transparent fw-bold text-primary" style="font-size: 14px;">
+                    Takip et
+                  </button>
+                </div>
+              </div>
+              
+             <div class="ml-2 mt-2" style="color: lightgray; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                  <span>
+                    <a href="https://about.instagram.com/" target="_blank" class="rightpanellinks text-decoration-none">Hakkında</a> 
+                    <a href="https://help.instagram.com/" target="_blank" class="rightpanellinks text-decoration-none">Yardım</a> <a href="https://about.instagram.com/blog/" class="rightpanellinks text-decoration-none">Basın</a> 
+                    <a href="https://www.instagram.com/developer/" class="rightpanellinks text-decoration-none">API</a>
+                    <a href="https://www.instagram.com/about/jobs/" class="rightpanellinks text-decoration-none">İş Fırsatları</a> <a href="https://www.instagram.com/legal/privacy/" class="rightpanellinks text-decoration-none">Gizlilik</a></span>
+                    <span>
+                      <a href="https://www.instagram.com/legal/terms/" class="rightpanellinks text-decoration-none">Koşullar</a> <a href="https://www.instagram.com/explore/locations/" class="rightpanellinks text-decoration-none">Konumlar</a> <a href="https://www.instagram.com/directory/profiles/" class="rightpanellinks text-decoration-none">Başlıca Hesaplar</a> <a href="https://www.instagram.com/directory/hashtags/" class="rightpanellinks text-decoration-none">Konu Etiketleri</a> Dil</span>
+                    <p></p>
+                  <p class="m-0" style="font-size: 12px;">© 2023 INSTAGRAM FROM hakanozkale</p>
+              </div>
+            </div>
+          </div>
+
+        </aside>
+        <!-- Menu aside END  -->
+      </div>
+    </main>
+    
+    <!-- my javascript -->
+    <script src="main.js"></script>
+    <!-- BOOSTRAP CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
