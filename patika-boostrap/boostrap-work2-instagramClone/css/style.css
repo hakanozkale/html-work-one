@@ -5,7 +5,12 @@
     margin-top: 70px; 
     transition: margin-top 0.3s ease-in-out;
 }
-
+@media (min-width: 992px) {
+    #fixedNavbarFix{
+        margin-top: 70px !important;; 
+        transition: margin-top 0.3s ease-in-out ;
+    }
+}
 #logo-parent-A{
     margin-left: 194px;
     margin-left: 13.472vw;

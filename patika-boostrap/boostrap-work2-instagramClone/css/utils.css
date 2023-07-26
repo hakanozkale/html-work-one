@@ -52,3 +52,16 @@ body{
     height: 35px;
     border-radius: 50%;
 }
+.content-icons{
+    color:black;
+    font-size: 23px;
+}
+.content-like-image{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.comment-text{
+    margin-left: -4px; 
+    margin-right: 5px
+}
