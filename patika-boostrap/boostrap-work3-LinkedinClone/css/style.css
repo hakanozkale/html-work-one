@@ -1,0 +1,92 @@
+/* navbar */
+.navbar{
+    height: 60px;
+}
+.brandKapsayici{
+    width: 185px;
+}
+#linkedinBrand-A{
+    width: 35px;
+    height: 35px;
+}
+@media only screen and (max-width: 991px) {
+    #linkedinBrand-A{
+        margin: 0 !important; 
+    }
+    .brandKapsayici{
+        width: max-content;
+    }
+    .borderNone{
+        border: none !important;
+        padding: 8px !important;
+    }
+    li.nav-item.me-3 {
+        margin:0px !important;  
+    }
+}
+
+#linkedinBrand{
+    color: #0a66c2;
+    font-size:35px;    
+}
+.searchBar{
+    width: 204px;
+    max-width: 500px;
+    background-color: #eef3f8;
+    border: 0;
+    margin-top: 5px;
+}
+.searchBar::placeholder {
+    font-size: 16px;
+    color: gray;
+    background-repeat: no-repeat;
+    background-image: url(/img/search-solid.svg);
+    background-size: 16px;
+    background-position-y: center;
+    padding-left:24px;
+}
+.menuText {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-weight: lighter;
+    margin-top:20px;
+    min-width: max-content;
+}
+.nav-li-A:hover .menuText,
+.nav-li-A:hover i {
+  color: var(--color-black);
+  transform: scale(1.05);
+}
+ul>li>a>i{
+    color: gray;
+    margin-top: 8px;
+}
+.nav-li-A{
+    height: 100%;
+}
+
+  
+
+
+
+
+
+
+
+/* 
+
+.forclass{
+    
+}
+
+*/
+
+
+/* 
+
+#forid{
+    
+}
+
+*/
