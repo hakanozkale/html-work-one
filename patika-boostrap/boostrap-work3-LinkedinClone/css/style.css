@@ -24,7 +24,6 @@
         margin:0px !important;  
     }
 }
-
 #linkedinBrand{
     color: #0a66c2;
     font-size:35px;    
@@ -69,12 +68,12 @@ ul>li>a>i{
 
 /* MAİN start*/
 .customContainer{
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 /* MAİN end*/
 
-/* ! left side  START*/
+/* left side  START*/
 .profileName{
     color:#212529;
     text-decoration: none;
@@ -96,13 +95,46 @@ ul>li>a>i{
     font-weight: bold;
     color: #5f5f5f;
 }
+/* left side  END*/
+
+/* ! Section START*/
+
+input.inputText {
+    border-radius: 40px;
+    height: 45px;
+}
+input::placeholder {
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input-container {
+    position: relative;
+}
+.svg-icon {
+    position: absolute;
+    top: 13px;
+    left: 22px;
+    width: 20px; 
+    height: 20px; 
+    background-image: url('/img/edit-regular.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.mediaTexts {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f5f5f;
+} 
+
+/* section post */
 
 
 
 
-/* ! left side  END*/
 
-
+/* ! Section END*/
 
 
 

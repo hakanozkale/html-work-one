@@ -7,8 +7,6 @@
     --color-black:#000;
     --color-blue:#0a66c2;
     --color-gray: #808080;
-
-    --fs13:13px;
 }
 html{
     width: 100vw;
@@ -30,7 +28,19 @@ body{
 .color-Gray{ color:var(--color-gray);}
 
 /* FONT SİZE */
-.fs13{ font-size: var(--fs13);}
+.fs13{ font-size: 13px;}
+.fs14{ font-size: 14px;}
+.fs15{ font-size: 15px;}
 
+/* width - height */
+.wh-1rem{width: 1rem; height: 1rem;}
+.wh-2rem{width: 2rem; height: 2rem;}
+.wh-3rem{width: 3rem; height: 3rem;}
 
+/* attechment */
+.sticky {
+    position: sticky;
+    top: 65px;
+    overflow: visible;
+}
 /***** SAYFA İLE ALAKALI ******/
