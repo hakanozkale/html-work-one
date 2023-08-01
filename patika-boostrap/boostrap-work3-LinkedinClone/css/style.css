@@ -43,6 +43,7 @@
     background-size: 16px;
     background-position-y: center;
     padding-left:24px;
+    font-weight: normal;
 }
 .menuText {
     font-size: 13px;
@@ -67,10 +68,11 @@ ul>li>a>i{
 /* NAVBAR END*/
 
 /* MAİN start*/
-.customContainer{
+/* !DELETED .customContainer {
     margin-left: 60px;
     margin-right: 60px;
-}
+  } */
+
 /* MAİN end*/
 
 /* left side  START*/
@@ -95,9 +97,20 @@ ul>li>a>i{
     font-weight: bold;
     color: #5f5f5f;
 }
+@media screen and (max-width:1400px){
+    .leftSideSpace {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+@media screen and (min-width:992px){
+     .sectionWidthRespo{
+        width: 564px !important;
+    }
+}
 /* left side  END*/
 
-/* ! Section START*/
+/* Section START*/
 
 input.inputText {
     border-radius: 40px;
@@ -125,19 +138,16 @@ input::placeholder {
   font-size: 15px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  color: #5f5f5f;
+  color: var(--color-5f);
 } 
-
-/* section post */
-
+/* Section END*/
 
 
-
-
-/* ! Section END*/
-
-
-
+/* right side  START */
+.list-inline-item:hover{
+    text-decoration: underline;
+}
+/* right side  END */
 
 /* 
 

@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="./css/utils.css" />
     <link rel="stylesheet" href="./css/media992.css" />
   </head>
-  <body style="background-color: #666;">
+  <body class="body-background">
 
     <!-- NAVBAR START  -->
-    <nav class="navbar navbar-expand-lg bg-white fixed-top border-bottom border-secondary justify-content-around">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top border justify-content-around">
       <div class="container-fluid justify-content-between bg-white">
         <div class="brandKapsayici ms-3">
           <a class="d-block me-3 ms-auto" id="linkedinBrand-A" href="index.html">
@@ -98,16 +98,16 @@
           
         </div>
       </div>
-    </nav>
+    </nav> 
     <!-- NAVBAR END -->
 
     <!-- main START  -->
-    <main class="container mt-5 customContainer ">
-        <div class="row pt-5">
+    <main class="container mt-5 ">
+        <div class="row pt-5 justify-content-center justify-content-md-center justify-content-lg-evenly justify-content-xl-center justify-content-xxl-start">
 
           <!-- left ASİDE START  -->
-          <aside class="col-3 ">
-            <div class="card mb-3 ms-auto rounded-1" style="width: 15rem;">
+          <aside class="col-3 d-none d-lg-block">
+            <div class="card mb-3 leftSideSpace ms-xxl-auto rounded-1" style="width: 15rem;">
               <div class="card-header text-center position-relative" style="background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg); height: 53px;">
               <img src="./img/avatar.jpg" class="rounded-circle borderPP  "/>
               </div>
@@ -116,7 +116,7 @@
               <p class="card-title">
                 <a href="https://www.linkedin.com/in/hakanozkale/" target="_blank" class="profileName fw-bold">Hakan Özkale</a>
               </p>
-              <div class="mt-0 fw-bold" style="color: #5f5f5f; font-size: 12px;">
+              <div class="mt-0 fw-bold color-5f" style="font-size: 12px;">
                 Software Developer at AnyWhere - Yazılım Şirketi 
               </div>
               <hr/>
@@ -138,7 +138,7 @@
               </div>
             </div>
 
-            <div class="card mb-3 ms-auto rounded-1" style="width: 15rem;">
+            <div class="card mb-3 leftSideSpace ms-xxl-auto rounded-1" style="width: 15rem;">
               <div class="card-body pb-4">
                 <h5 class="card-title">Sayfalarım</h5>
                 <div class="d-flex flex-row align-items-center">
@@ -156,7 +156,7 @@
               </div>
             </div>
 
-            <div class="card mb-3 ms-auto rounded-1 sticky " style="width: 15rem;">
+            <div class="card mb-3 leftSideSpace ms-xxl-auto rounded-1 sticky " style="width: 15rem;">
               <div class="card-body">
                 <p class="card-text mb-2 fs13">En Yeni</p>
 
@@ -185,7 +185,7 @@
                   <div class="mb-1">Gruplar</div>
                   <div class="mb-1 d-flex flex-row justify-content-between">
                     <span>Etkinlikler</span>
-                    <span class="fw-normal" style="font-size: 23px; color: #5f5f5f">+</span>
+                    <span class="fw-normal color-5f" style="font-size: 23px;">+</span>
                   </div>
                 </div>
                 
@@ -212,7 +212,7 @@
 
 
           <!-- Section START  -->
-          <section class="col-6 mx-1" style="width:564px;">
+          <section class="col-sm-12 col-lg-6 mx-1 sectionWidthRespo">
 
             <div class="card">
               <div class="card-body">
@@ -222,9 +222,9 @@
                   <input type="text" class="form-control inputText ps-5" placeholder="Bir gönderi başlat">
                 </div>
 
-                <div class="d-flex justify-content-around">
+                <div class="d-flex justify-content-around flex-wrap">
                   <span>
-                    <button class="btn btn-light border-0 py-1">
+                    <button class="btn btn-light border-0 py-1 mx-1 my-1 my-lg-0">
                       <div class="d-flex flex-row align-items-center justify-content-between">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false" style="fill: #70B5F9">
                           <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z"></path>
@@ -234,7 +234,7 @@
                     </button>
                   </span>
                   <span>
-                    <button class=" btn btn-light border-0 py-1">
+                    <button class=" btn btn-light border-0 py-1 mx-1 my-1 my-lg-0">
                       <div class="d-flex flex-row align-items-center justify-content-between">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"data-supported-dps="24x24" width="24" height="24"focusable="false" style="fill: #7FC15E">
                       <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z"></path>
@@ -244,7 +244,7 @@
                     </button>
                   </span>
                   <span>
-                    <button class=" btn btn-light border-0 py-1">
+                    <button class=" btn btn-light border-0 py-1 mx-1 my-1 my-lg-0">
                       <div class="d-flex flex-row align-items-center justify-content-between">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false" style="fill: #E7A33E">
                       <path d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z"></path>
@@ -254,7 +254,7 @@
                     </button>
                   </span>
                   <span>
-                    <button class=" btn btn-light border-0 py-1">
+                    <button class=" btn btn-light border-0 py-1 mx-1 my-1 my-lg-0">
                       <div class="d-flex flex-row align-items-center justify-content-between">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="" width="24" height="24" focusable="false" style="fill: #F5987E">
                       <path d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"></path>
@@ -274,8 +274,84 @@
               <div class="card-body py-2">
 
                 <div class="d-flex flex-row align-items-center">
-                  <div class="wh-3rem">
-                    <img class="rounded-circle wh-3rem" src="https://hcsarasota.clubs.harvard.edu/images/vault/1631.jpg">
+                  <div class="wh-50px">
+                    <img class="rounded-circle wh-50px" src="https://hcsarasota.clubs.harvard.edu/images/vault/1631.jpg">
+                  </div>
+
+                  <div class="d-flex flex-column ms-3 w-100" >
+                    <div class="d-flex flex-row justify-content-between align-items-center">
+                      <a href="https://www.linkedin.com/in/malan/" class="text-decoration-none fs14 fw-bolder" target="_blank"
+                      style="color: #212529;">David J. Malan</a>
+                      <i class="fas fa-ellipsis-h fa-md"></i>
+                    </div>
+                    <div class="fs13" style="color: #474747;">I teach CS50</div>
+                    <div class="fs13" style="color: #474747;">25a 
+                      <i class="fas fa-globe-americas fa-sm" style="color:gray"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="card-text my-1 fs15">They have done great things! Tebrikler Kodluyoruz!</p>
+              </div>
+
+              <div>
+
+                <img src="https://pbs.twimg.com/media/Em2_xBbXUAEVDx1.jpg" class="card-img-top rounded-0" alt="..." />
+              </div>
+
+              <div class="d-flex flex-row fs-6 align-items-center mx-2 my-1">
+                <span class="ms-2">
+                  <i class="fa-solid fa-thumbs-up" style="color: #005eff;"></i>
+                </span>
+                <span class="ms-2">
+                  <i class="fa-solid fa-hands-clapping" style="color: #5abe23;"></i>
+                </span>
+                <span class="ms-2">
+                  <i class="fa-solid fa-heart" style="color: #ff5050;"></i>
+                </span>
+                <span class="ms-2 fs14 " style="color: #474747;">
+                  958
+                </span>
+              </div>
+
+              <div class="card-footer bg-white mt-1">
+                <span>
+                  <button class="d-inline-flex flex-row align-items-center btn btn-light text-secondary border-0">
+                    <i class=" far fa-thumbs-up fa-md" style="font-size: 1.2rem"></i>
+                    <span class="ms-2 mediaTexts">Beğen</span>
+                  </button>
+                </span>
+
+                <span>
+                  <button class="d-inline-flex flex-row align-items-center btn btn-light text-secondary border-0">
+                    <i class=" far fa-comment fa-md" style="font-size: 1.2rem"></i>
+                    <span class="ms-2 mediaTexts">Yorum Yap</span>
+                  </button>
+                </span>
+
+                <span>
+                  <button class="d-inline-flex flex-row align-items-center btn btn-light text-secondary border-0">
+                    <i class=" fas fa-share fa-md" style="font-size: 1.2rem"></i>
+                    <span class="ms-2 mediaTexts">Paylaş</span>
+                  </button>
+                </span>
+
+                <span>
+                  <button class="d-inline-flex flex-row align-items-center btn btn-light text-secondary border-0">
+                    <i class=" fas fa-paper-plane fa-md" style="font-size: 1.2rem"></i>
+                    <span class="ms-2 mediaTexts">Gönder</span>
+                  </button>
+                </span>
+
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <div class="card-body py-2">
+
+                <div class="d-flex flex-row align-items-center">
+                  <div class="wh-50px">
+                    <img class="rounded-circle wh-50px" src="https://hcsarasota.clubs.harvard.edu/images/vault/1631.jpg">
                   </div>
 
                   <div class="d-flex flex-column ms-3 w-100" >
@@ -349,83 +425,8 @@
               <div class="card-body py-2">
 
                 <div class="d-flex flex-row align-items-center">
-                  <div class="wh-3rem">
-                    <img class="rounded-circle wh-3rem" src="https://hcsarasota.clubs.harvard.edu/images/vault/1631.jpg">
-                  </div>
-
-                  <div class="d-flex flex-column ms-3 w-100" >
-                    <div class="d-flex flex-row justify-content-between align-items-center">
-                      <a href="https://www.linkedin.com/in/malan/" class="text-decoration-none fs14 fw-bolder" target="_blank"
-                      style="color: #212529;">David J. Malan</a>
-                      <i class="fas fa-ellipsis-h fa-md"></i>
-                    </div>
-                    <div class="fs13" style="color: #474747;">I teach CS50</div>
-                    <div class="fs13" style="color: #474747;">25a 
-                      <i class="fas fa-globe-americas fa-sm" style="color:gray"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <p class="card-text my-1 fs15">They have done great things! Tebrikler Kodluyoruz!</p>
-              </div>
-
-              <div>
-                <img src="https://pbs.twimg.com/media/Em2_xBbXUAEVDx1.jpg" class="card-img-top rounded-0" alt="..." />
-              </div>
-
-              <div class="d-flex flex-row fs-6 align-items-center mx-2 my-1">
-                <span class="ms-2">
-                  <i class="fa-solid fa-thumbs-up" style="color: #005eff;"></i>
-                </span>
-                <span class="ms-2">
-                  <i class="fa-solid fa-hands-clapping" style="color: #5abe23;"></i>
-                </span>
-                <span class="ms-2">
-                  <i class="fa-solid fa-heart" style="color: #ff5050;"></i>
-                </span>
-                <span class="ms-2 fs14 " style="color: #474747;">
-                  958
-                </span>
-              </div>
-
-              <div class="card-footer bg-white mt-1">
-                <span>
-                  <button class="d-inline-flex flex-row align-items-center btn btn-light text-secondary border-0">
-                    <i class=" far fa-thumbs-up fa-md" style="font-size: 1.2rem"></i>
-                    <span class="ms-2 mediaTexts">Beğen</span>
-                  </button>
-                </span>
-
-                <span>
-                  <button class="d-inline-flex flex-row align-items-center btn btn-light text-secondary border-0">
-                    <i class=" far fa-comment fa-md" style="font-size: 1.2rem"></i>
-                    <span class="ms-2 mediaTexts">Yorum Yap</span>
-                  </button>
-                </span>
-
-                <span>
-                  <button class="d-inline-flex flex-row align-items-center btn btn-light text-secondary border-0">
-                    <i class=" fas fa-share fa-md" style="font-size: 1.2rem"></i>
-                    <span class="ms-2 mediaTexts">Paylaş</span>
-                  </button>
-                </span>
-
-                <span>
-                  <button class="d-inline-flex flex-row align-items-center btn btn-light text-secondary border-0">
-                    <i class=" fas fa-paper-plane fa-md" style="font-size: 1.2rem"></i>
-                    <span class="ms-2 mediaTexts">Gönder</span>
-                  </button>
-                </span>
-
-              </div>
-            </div>
-
-            <div class="card mb-3">
-              <div class="card-body py-2">
-
-                <div class="d-flex flex-row align-items-center">
-                  <div class="wh-3rem">
-                    <img class="rounded-circle wh-3rem" src="https://hcsarasota.clubs.harvard.edu/images/vault/1631.jpg">
+                  <div class="wh-50px">
+                    <img class="rounded-circle wh-50px" src="https://hcsarasota.clubs.harvard.edu/images/vault/1631.jpg">
                   </div>
 
                   <div class="d-flex flex-column ms-3 w-100" >
@@ -499,7 +500,114 @@
           <!-- Section START  -->
 
           <!-- right ASİDE START  -->
-          <aside class="col-3">
+          <aside class="col-3 d-none d-xxl-block">
+
+            <div class="card mb-3 me-auto rounded-1" style="width: 20rem;">
+              <div class="card-body pb-4">
+                <div class="card-title d-flex flex-row justify-content-between align-items-center mb-3">
+                  <p class="m-0">Akışınıza ekleyin</p>
+                  <i class="fas fa-info-circle color-Gray iHover"></i>
+                </div>
+                
+                <div class="card-title d-flex flex-row justify-content-between align-items-center mb-3">
+                    <img class="rounded-circle wh-50px" src="https://d1qgh7vfxb2rk6.cloudfront.net/favicon-icon.png"/>
+                    <span class="fw-bolder fs14 me-5">Codecraft</span>
+                    <span>
+                      <button class="btn btn-outline-primary rounded-5">
+                        <strong>+ Takip Et</strong>
+                      </button>
+                    </span>
+                </div>
+
+                <div class="card-title d-flex flex-row justify-content-between align-items-center mb-3">
+                  <img class="rounded-circle wh-50px" src="https://d1qgh7vfxb2rk6.cloudfront.net/favicon-icon.png"/>
+                  <span class="fw-bolder fs14 me-5">Codecraft</span>
+                  <span>
+                    <button class="btn btn-outline-primary rounded-5">
+                      <strong>+ Takip Et</strong>
+                    </button>
+                  </span>
+                </div>
+
+                <div class="card-title d-flex flex-row justify-content-between align-items-center mb-3">
+                  <img class="rounded-circle wh-50px" src="https://d1qgh7vfxb2rk6.cloudfront.net/favicon-icon.png"/>
+                  <span class="fw-bolder fs14 me-5">Codecraft</span>
+                  <span>
+                    <button class="btn btn-outline-primary rounded-5">
+                      <strong>+ Takip Et</strong>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card mb-3 me-auto rounded-1" style="width: 20rem;">
+              <div class="card-body pb-0">
+                <div class="card-title d-flex flex-row justify-content-between align-items-center mb-2">
+                  <p class="m-0 fs15">Bugünün en çok izlenen eğitimleri</p>
+                  <i class="fas fa-info-circle color-Gray iHover"></i>
+                </div>
+                
+                <div class="card-title">
+                  <ol class="ps-3 fs14 mb-0">
+                    <li class="fw-bold space" >
+                      The Six Morning Habits of High Perf...
+                      <div style=" font-weight: normal; " class="color-5f">
+                        Pete Mocakatais | How to be awesome at you...
+                      </div>
+                    </li>
+                    <li class="fw-bold">
+                      Onconscious Blas
+                      <div style=" font-weight: normal; " class="color-5f">
+                        Stacey Gordon
+                      </div>
+                    </li>
+                    <li class="fw-bold">
+                      Critical Thinking for Better Judgme...
+                      <div style=" font-weight: normal; " class="color-5f">
+                        Becki Saltzman
+                      </div>
+                    </li>
+                  </ol>
+                </div>       
+              </div>
+
+              <div class="card-footer bg-white text-center border-0 fs15"
+              style="color: #0a66c2;">
+              <strong>Linkedin Learning'de daha fazlasını göster</strong>
+              </div>
+            </div>
+
+            <div class="text-center color-5f sticky mb-3" style="width: 20rem;">
+              <ul class="list-inline px-3">
+                <li class="list-inline-item small">
+                    <a href="https://about.linkedin.com/" class="profileViews text-decoration-none fw-normal">Hakkında</a>
+                </li>
+                <li class="list-inline-item small">
+                    <a href="https://www.linkedin.com/accessibility?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.accessibility"
+                    class="profileViews text-decoration-none fw-normal">Erişilebilirlik</a>
+                </li>
+                <li class="list-inline-item small">
+                    <a href="https://www.linkedin.com/help/linkedin?trk=footer_d_flagship3_feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.help" class="profileViews text-decoration-none fw-normal">Yardım Merkezi</a>
+                </li>
+                <li class="list-inline-item small">
+                    <a href="#" class="profileViews text-decoration-none fw-normal">Gizlilik ve Koşullar</a>
+                </li>
+                <li class="list-inline-item small">
+                    <a href="https://www.linkedin.com/help/linkedin/answer/62931?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.ad_choices"
+                    class="profileViews text-decoration-none fw-normal">Reklam Tercihleri</a>
+                </li>
+                <li class="list-inline-item small">
+                    <a href="https://www.linkedin.com/ad/start?trk=n_nav_ads_rr&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.advertising" class="profileViews text-decoration-none fw-normal">Reklam</a>
+                </li>
+              </ul>
+              
+              <div class="text-center" style="margin-top: 10px">
+                <img
+                  src="https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg"
+                  width="90px"
+                  height="20px"/><span style="font-size: 12px; margin-left: -15px">Linkedin Corporation © 2022</span>
+              </div>
 
           </aside>
           <!-- right ASİDE START  -->
