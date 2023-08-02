@@ -107,6 +107,9 @@ ul>li>a>i{
      .sectionWidthRespo{
         width: 564px !important;
     }
+    .marginTop {
+        margin-top: 48px !important;
+    }
 }
 /* left side  END*/
 
@@ -149,19 +152,3 @@ input::placeholder {
 }
 /* right side  END */
 
-/* 
-
-.asd{
-    
-}
-
-*/
-
-
-/* 
-
-#favicon{
-    
-}
-
-*/

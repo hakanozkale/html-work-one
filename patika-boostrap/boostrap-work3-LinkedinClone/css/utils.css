@@ -51,15 +51,22 @@ body{
     top: 65px;
     overflow: visible;
 }
-
 .iHover:hover{
     color:var(--color-black);
 }
-
 hr{
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
     border-top: 1px solid rgba(0,0,0,.5);
 }
+/* for NAVBAR toggler */
+.marginTop{
+    margin-top: 48px;
+    transition: margin-top 1s ease-out;
+}
+.navbar-collapse{
+    transition: all 1s ease-out !important;
+}
+
 /***** SAYFA İLE ALAKALI ******/
